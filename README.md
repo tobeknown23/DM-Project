@@ -21,3 +21,9 @@ Cipher text
 Stop
 
 PROCESS OF DECRYPTION Cipher Text Input Loading File RSA algorithm to decrypt Hex conversion Create a file Stop
+
+
+Refrences for the project we had used and got help from are as stated:
+https://www.codeproject.com/Articles/723175/Image-Cryptography-using-RSA-Algorithm-in-Csharp
+https://www.youtube.com/watch?v=sYGS80-Joi8
+http://csharpdocs.com/encryption-and-decryption-using-rsa-algorithm-in-c/
