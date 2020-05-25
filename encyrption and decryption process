@@ -1,0 +1,22 @@
+Encryption of image by HEX function to extract HEX Code and using RSA public key algorithm. To get cipher image text. 
+Decrypted cipher text to Hex code image by HEX function and using RSA private key Algorithm
+Encryption Process:
+RSA algorithm is usually used for text encryption. But for providing security on image transmission.RSA algorithm for Encryption and Decryption
+1.   Choose two prime numbers p and q. Calculate the product of p and q.
+2.   Calculate the value, n = p q. 
+3.   Compute by Euler's totient function.
+4.   Choose a number e such that , e and φ(n) are co-prime and e is the used as  public key.
+5.   Determine d as d ≡ e −1 .       
+     Obtain the encrypted image C .
+7.   C = C mod 256, as  level values of image that lies in  range [0,255]. 
+8.   Recover decrypted image.
+9.   The original input (recovered) image.
+
+
+ The encryption and decryption done by using library C#,  Images are encrypted, and create the text file, the same file is used for decryption.
+ Library is used for basic conversion, processing Hex values, byte array to image conversion, image to byte array conversion.
+ 
+ Decryption the cipher text image:
+ Cipher string  converted into character array. 
+ Each character de ciphers with RSA and the Decipher character  is converted into original value. Each character is pass, then the pass string is return
+ 
