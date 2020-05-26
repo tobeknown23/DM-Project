@@ -1,0 +1,29 @@
+ //this function is for decryption and image cipher text is passed in this function
+        public string decrypt(String imageToDecrypt)
+        { 
+            //the cipher text is converted into charcter array
+            char[] arr = imageToDecrypt.ToCharArray();
+            int i = 0, j = 0;
+            string c = "", dc = "";
+            progressBar2.Maximum = arr.Length;
+            try
+            {
+                for (; i < arr.Length; i++)
+                {
+                    Application.DoEvents();
+                    c = "";
+                    progressBar2.Value = i;
+                    //then the each letter disphers according to RSA 
+                    for (j = i; arr[j] != '-'; j++)
+                        c = c + arr[j];
+                    i = j;
+                    //then the decipher value is now convert into the orginial value
+                    int xx = Convert.ToInt32(c);
+                    dc = dc + ((char)Image_cryptography.RSA.mod(xx, d, n)).ToString();
+                }
+            }
+            catch (Exception ex) { }
+            ///and then return the string
+            return dc;
+        
+        }
