@@ -1,0 +1,26 @@
+This is the function of encryption with comments for code explaination!
+
+//a method for encryption which passes a string
+        public string encrypt(string imgToEncrypt)
+        {
+            //image hex code is passed in this
+            
+            string hex_code = imgToEncrypt;
+            //then string converted into character array
+            char[] array = hex_code.ToCharArray();
+            String c = "";
+            //this is for progress bar loading
+            progressBar1.Maximum = array.Length;
+            //in this whole loop each letter is cipher using RSA till the length of array and the cipher text is saved on textfile
+            for (int i = 0; i < array.Length; i++)
+            {
+                Application.DoEvents();
+                progressBar1.Value = i;
+                //
+                if (c == "")
+                    c = c + Image_cryptography.RSA.mod(array[i], rsa_enc_key, n);
+                else
+                    c = c + "-" + Image_cryptography.RSA.mod(array[i], rsa_enc_key, n);
+            }
+            return c;
+        }
