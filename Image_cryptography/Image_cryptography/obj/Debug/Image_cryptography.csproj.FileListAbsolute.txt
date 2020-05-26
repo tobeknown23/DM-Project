@@ -1,0 +1,22 @@
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.exe.config
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.exe
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.pdb
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Form1.resources
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.exe
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.pdb
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.encrypt_here.resources
+c:\users\dell\documents\visual studio 2012\Projects\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Decrypt_here.resources
+C:\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.exe.config
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.exe
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.pdb
+C:\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.exe
+C:\Image_cryptography\Image_cryptography\bin\Debug\Image_cryptography.pdb
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.csprojResolveAssemblyReference.cache
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Decrypt_here.resources
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.encrypt_here.resources
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Form1.resources
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.Properties.Resources.resources
+C:\Image_cryptography\Image_cryptography\obj\Debug\Image_cryptography.csproj.GenerateResource.Cache
